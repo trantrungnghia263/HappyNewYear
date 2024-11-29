@@ -22,15 +22,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const secondElement = document.querySelector(".message__second");
 
   function countDownDate() {
-    const newYear2024 = new Date("2025-01-29");
+    const newYear2025 = new Date("2025-01-29");
 
     const countDown = setInterval(function () {
       const currentDate = new Date();
-      const temp = newYear2024 - currentDate;
+      const temp = newYear2025 - currentDate;
 
       if (temp <= 0) {
         clearInterval(countDown);
-        alert("Happy New Year 2024");
+        alert("Happy New Year 2025");
       } else {
         const days = Math.floor(temp / (1000 * 60 * 60 * 24));
         const hours = Math.floor(
