@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const secondElement = document.querySelector(".message__second");
 
   function countDownDate() {
-    const newYear2024 = new Date("2024-02-10");
+    const newYear2024 = new Date("2025-01-29");
 
     const countDown = setInterval(function () {
       const currentDate = new Date();
